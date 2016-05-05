@@ -15,3 +15,7 @@ spring:
                 path:
                     logs: target/elasticsearch/log
                     data: target/elasticsearch/data
+    profiles.active: test
+
+logging.level:
+    ROOT: INFO
